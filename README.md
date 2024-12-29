@@ -1,9 +1,8 @@
-#  Useful Commands
+# Useful Commands
 
 - [Useful Commands](#useful-commands)
   - [GitHub](#github)
     - [Find all public repositories of a user](#find-all-public-repositories-of-a-user)
-
 
 ## GitHub
 

@@ -26,4 +26,3 @@ This command will list all the public repositories of a user that are not archiv
 ```bash
 gh repo list --no-archived --source --visibility public --json name --jq '.[].name'
 ```
-

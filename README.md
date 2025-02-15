@@ -24,5 +24,11 @@ git commit -m "Squashed all commits"
 This command will list all the public repositories of a user that are not archived and not forked.
 
 ```bash
+# Just the names of the repositories
 gh repo list --no-archived --source --visibility public --json name --jq '.[].name'
+```
+
+```bash
+# Names of the repositories with the owner
+gh repo list --no-archived --source --visibility public --json nameWithOwner --jq '.[].nameWithOwner'
 ```

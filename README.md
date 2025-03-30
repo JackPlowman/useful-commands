@@ -5,6 +5,8 @@
     - [Squash all commits of a branch into one](#squash-all-commits-of-a-branch-into-one)
   - [GitHub](#github)
     - [Find all public repositories of a user](#find-all-public-repositories-of-a-user)
+  - [Scoop](#scoop)
+    - [Update Scoop Packages](#update-scoop-packages)
 
 ## Git
 
@@ -31,4 +33,12 @@ gh repo list --no-archived --source --visibility public --json name --jq '.[].na
 ```bash
 # Names of the repositories with the owner
 gh repo list --no-archived --source --visibility public --json nameWithOwner --jq '.[].nameWithOwner'
+```
+
+## Scoop
+
+### Update Scoop Packages
+
+```powershell
+scoop list | foreach { scoop update $_.Name }
 ```

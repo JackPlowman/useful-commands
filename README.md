@@ -27,12 +27,12 @@ This command will list all the public repositories of a user that are not archiv
 
 ```bash
 # Just the names of the repositories
-gh repo list --no-archived --source --visibility public --json name --jq '.[].name'
+gh repo list --no-archived --source --visibility public --json name --jq '.[].name' | sort
 ```
 
 ```bash
 # Names of the repositories with the owner
-gh repo list --no-archived --source --visibility public --json nameWithOwner --jq '.[].nameWithOwner'
+gh repo list --no-archived --source --visibility public --json nameWithOwner --jq '.[].nameWithOwner' | sort
 ```
 
 ## Scoop

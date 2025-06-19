@@ -32,7 +32,7 @@ gh repo list --no-archived --source --visibility public -L 300 --json name --jq 
 
 ```bash
 # Names of the repositories with the owner (max 300)
-gh repo list --no-archived --source --visibility public -L 300  --json nameWithOwner --jq '.[].nameWithOwner' | sort
+gh repo list --no-archived --source --visibility public -L 300 --json nameWithOwner --jq '.[].nameWithOwner' | sort
 ```
 
 ## Scoop

@@ -1,6 +1,11 @@
 # Useful Commands
 
+![Maintenance](https://img.shields.io/badge/Maintenance-8A2BE2?style=for-the-badge&color=19e650&label=Status)
+
+## Table of Contents
+
 - [Useful Commands](#useful-commands)
+  - [Table of Contents](#table-of-contents)
   - [Git](#git)
     - [Squash all commits of a branch into one](#squash-all-commits-of-a-branch-into-one)
   - [GitHub](#github)

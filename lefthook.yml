@@ -24,4 +24,3 @@ pre-commit:
       run: just actionlint-check
     EditorConfig Check:
       run: just editorconfig-check
-

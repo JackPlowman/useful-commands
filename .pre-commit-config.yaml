@@ -39,7 +39,7 @@ repos:
         name: EditorConfig Checker
         description: Validates files against .editorconfig rules
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: v1.19.0
+    rev: v1.20.0
     hooks:
       - id: zizmor
         name: Zizmor
@@ -67,6 +67,7 @@ repos:
       - id: pinact
         name: Pinact Check
         language: golang
+        language_version: "go1.25"
         entry: pinact
         additional_dependencies:
           - github.com/suzuki-shunsuke/pinact/v3/cmd/pinact@v3.8.0

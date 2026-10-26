@@ -19,6 +19,20 @@ env:
   FORCE_COLOR: 1
 
 jobs:
+  actionlint:
+    name: Common Code Checks / Check GitHub Actions with Actionlint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Run Actionlint hook
+        uses: j178/prek-action@44924fe9ef4a6f88253c4b6b1bf11c689d3ce53d # v3.1.0
+        with:
+          prek-version: "0.5.7"
+          extra_args: actionlint --all-files
+
   codeql-checks:
     name: CodeQL Analysis
     permissions:

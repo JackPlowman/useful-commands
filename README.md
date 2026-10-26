@@ -1,6 +1,6 @@
 # Useful Commands
 
-![Maintenance](https://img.shields.io/badge/Maintenance-8A2BE2?style=for-the-badge&color=19e650&label=Status)
+![Terminated](https://img.shields.io/badge/Terminated-8A2BE2?style=for-the-badge&color=ff0000&label=Status)
 
 ## Table of Contents
 
